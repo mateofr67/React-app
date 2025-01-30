@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import reportWebVitals from './reportWebVitals';
 import Homepage from './Pages/Homepage';
 import Navbar from './Components/Navbar';
 import Fieldspage from './Pages/Fieldspage';
@@ -33,5 +32,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-reportWebVitals();
