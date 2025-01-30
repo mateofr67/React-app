@@ -5,7 +5,7 @@ import FieldDetailpage from '../Pages/FieldDetailpage';
 
 jest.mock('../Components/FieldDetail', () => () => <div data-testid="field-detail-component">Mocked FieldDetail</div>);
 
-test('renders FieldDetail component', () => {
+test('renderiza FieldDetail', () => {
   render(<FieldDetailpage />);
   expect(screen.getByTestId('field-detail-component')).toBeInTheDocument();
 });
